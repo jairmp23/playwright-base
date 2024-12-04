@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Playwright-specific directories
+test-results/
+trace.zip
+screenshot.png
+videos/
+screenshots/
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker files
+docker-compose.override.yml
+.env.docker
+
+# Miscellaneous
+*.iml
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# Temporary files
+temp/
+tmp/
+
+# Optional npm cache
+.npm/
+
